@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Memory Game</h1>
+        </header>
+    
+        <section class="score-panel">
+            <h3>Score</h3>
+            <ul id="star-rating" class="star-rating">
+                <li class="star"><i class="fa fa-star"></i></li>
+                <li class="star"><i class="fa fa-star"></i></li>
+                <li class="star"><i class="fa fa-star"></i></li>
+            </ul>
+            <span class="moves-counter">0</span> Moves
+            <div class="timer-container">
+                <span class="timer"><i class="fa fa-hourglass-start"></i> Timer: 00:00</span>
+            </div>
+            <div class="reset">
+                <button class="btn reset-btn">Reset <i class="fa fa-repeat"></i></button>
+                <a href="menugame.html">
+                  <button class="btn back-btn">Back <i class="fa fa-arrow-left"></i></button></a>
+            </div>
+            <br>
+            
+              
+
+            
+        </section>
+    
+        <!-- Modal -->
+        <section class="win-game-modal">
+            <div id="modal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Congratulations!</h2>
+                    <p>That's greatt amorr!! noww sendd mee a proof you havee been finished</p>
+                    <img class="modal-img" src="https://github.com/ijizench/memo1.github.io/blob/main/assets/img//Vault-Boy-Thumb-Up.jpg?raw=true" alt="Vault boy giving the thumbs up from the game fall out">
+                    <a href="https://wa.me/62895334260521/?text=Tee amoo mi maridoo!!!"><button class="btn play-again-btn">Send Proof</button></a> 
+                    
+                </div>
+            </div>
+        </section>
+    
+        <ul class="deck"></ul>
+        
+    </div>
+    
+    
+      <script src="js/custom.js"></script>
+      </body>
+    </html>
+</body>
+</html>
